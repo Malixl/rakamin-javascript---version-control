@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+:root {
+  --font-family: "Quicksand", sans-serif;
+  --color-background: #f5f5f5;
+  --color-white: #ffffff;
+  --color-grey-light: #f0f0f0;
+  --color-grey-dark: #ccc;
+  --color-primary: #007bff;
+  --color-primary-hover: #0056b3;
+  --font-size-heading: 1.5rem;
+  --font-size-button: 1rem;
+  --padding-container: 30px;
+  --border-radius: 5px;
+  --box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+}
+
+.full-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: var(--color-white);
+  padding: var(--padding-container);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+  font-size: var(--font-size-heading);
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 18px;
+  font-size: var(--font-size-button);
+  color: white;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.output {
+  margin-top: 10px;
+  background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-dark);
+  padding: 15px;
+  border-radius: var(--border-radius);
+  text-align: left;
+  font-family: monospace;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+footer {
+  background-color: var(--color-grey-light);
+  color: #333;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 2px solid var(--color-grey-dark);
+  width: 100%;
+}
+
+footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 5vw;
+  }
+
+  button {
+    font-size: 4vw;
+  }
+}
