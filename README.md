@@ -4,12 +4,39 @@
 
 ## Cara Menjalankan Program
 
+Anda dapat menjalankan aplikasi ini dengan dua cara:
+
 ### 1. Langsung dari Browser
 
-- **Clone** repository ini dengan perintah:
+- Clone repository ini dengan perintah:
   ```bash
   git clone https://github.com/Malixl/rakamin-javascript-version-control.git
   ```
+- Buka file index.html di browser Anda.
+
+### 2. Langsung dari Browser
+
+- Clone repository ini dengan perintah:
+  ```bash
+  git clone https://github.com/Malixl/rakamin-javascript-version-control.git
+  ```
+- Buka proyek ini di Visual Studio Code.
+- Install ekstensi Live Server.
+- Klik kanan pada index.html dan pilih "Open with Live Server".
+
+## Preview
+
+### Spalsh
+
+![Splash](./img/Splash.jpeg)
+
+### Results
+
+![Results](./img/Resutls.jpeg)
+
+### Demo
+
+Demo dapat dilihat pada link berikut: [Demo][preview-url]
 
 ## Deskripsi Tugas
 
@@ -79,3 +106,5 @@ Peserta diminta untuk membuat algoritma untuk menganalisis data menggunakan **ar
 `The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.`
 
 `THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`
+
+[preview-url]:
