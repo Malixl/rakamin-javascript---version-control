@@ -97,4 +97,4 @@ Peserta diminta untuk membuat algoritma untuk menganalisis data menggunakan **ar
 - Implementasi JavaScript.
 - Penggunaan Git untuk version control.
 
-[preview-url]:
+[preview-url]: https://malixl.github.io/rakamin-javascript-version-control/
